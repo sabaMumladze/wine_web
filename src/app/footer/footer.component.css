@@ -1,0 +1,46 @@
+.main_conteiner {
+    width: 100%;
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.conteiner1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner1 > img {
+    
+    height: 300px;
+    cursor: pointer;
+} 
+.conteiner1 > img:hover {
+    filter: drop-shadow(0 0 10px black);
+}
+.conteiner2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner3 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.conteiner3 > img {
+    width: 300px;
+    cursor: pointer;
+   
+}
+
+
+
+

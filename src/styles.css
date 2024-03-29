@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: serif;
+}
+ .main_conteiner {
+    position: sticky;
+    top: 0;
+}
+.w_name {
+    color: gray;
+    font-family: serif;
+}
+
+
+.dis_button {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dis_button > button {
+    margin-top: 40px;
+    width: 200px;
+    height:50px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.dis_button > button:hover{
+    background-color: black;
+    color: white;
+
+}

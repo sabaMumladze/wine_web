@@ -1,0 +1,277 @@
+.cont_video {
+    width: 100%;
+}
+video {
+     width: 56%;
+     
+}
+.cont_video {
+   width: 100%;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+
+}
+.video_text_button {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    
+}
+.video_content {
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+.video_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video_content > h1 {
+    color: white;
+    font-size: 60px;
+}
+.video_content > p {
+    font-size: 30px;
+    color: rgb(227, 148, 0);
+}
+.video_content > button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(227, 148, 0);
+    border: 1px solid rgb(227, 148, 0);
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.video_content > button:hover {
+    border: 3px solid rgb(227, 148, 0);
+    text-shadow: 0 0 10px  rgb(227, 148, 0);
+    box-shadow: 0 0 10px  rgb(227, 148, 0);
+
+}
+.wine_text {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+
+.wine_text > p:hover {
+    border-bottom: 1px solid black;
+    text-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.image {
+    width: 100px;
+   transition: 0.8s;
+    
+}
+.image:hover {
+    filter: hue-rotate(90dge);
+    transform: scale(2) rotate(7deg);
+    
+}
+
+.img_hover {
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.wine_mainConteiner {
+    display: flex;
+
+}
+.conteiner {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.w_name {
+    font-size: 17px;
+
+}
+.price {
+    font-size: 20px;
+
+}
+
+/* .slid_body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: wheat;
+}
+.slider_conteiner {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000004d;
+}
+.image_conteiner {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+.image_conteiner > img {
+width: 500px;
+height: auto;
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: translateY(-50%);
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn.prev {
+    left: 10px;
+}
+.btn.next {
+    right: 10px;
+}
+.btn:hover {
+    opacity: 1;
+} */
+.factori_conteiner {
+    overflow: hidden;
+    cursor: pointer;
+    width: 700px;
+    
+    
+
+}
+.image_factory {
+    width: 100%;
+   margin-top: 100px;
+    transition: 0.8s;
+}
+.image_factory:hover {
+    filter: hue-rotate(90dge);
+    transform: scale(1.1) rotate(0deg);
+    
+}
+
+.label {
+    font-size: 50px;
+}
+.proces_text > p {
+    width: 50%;
+}
+.proces_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 63%;
+}
+.proces_text_conteiner {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.proces_text_conteiner > img {
+    height:390px;
+    width: 700px;
+}
+
+.images_conteiner {
+width: 100%;
+display: flex;
+gap: 10px;
+margin-top: 100px;
+}
+.images_conteiner > img {
+    width: 17%;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 1;
+    
+
+}
+.images_conteiner > img:hover {
+    opacity: 0.4;
+
+}
+.card_conteiner {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card_border {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 96%);
+    box-shadow: 0 0 10px black;
+}
+.card {
+    width: 750px;
+    height: 450px;
+    border: 1px solid rgb(176, 176, 176);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checbox_text {
+    width: 700px;
+    display: flex;
+}
+.input_button {
+    display: flex;
+    gap: 10px;
+}
+.input_button > input {
+    width: 400px;
+    height: 35px;
+    background-color: hsl(0, 0%, 96%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+   
+}
+.input_button > input::placeholder {
+    color: gray;
+    font-size: 20px;
+}
+.input_button > button {
+    width: 140px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    transition: 0.6s;
+    cursor: pointer;
+     border-radius: 3px;
+    font-weight: 600;
+    background: none;
+}
+.input_button > button:hover {
+    background-color: black;
+    color: white;
+}
+.checbox_text > input {
+    width: 25px;
+    
+}
